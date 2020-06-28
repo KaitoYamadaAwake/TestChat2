@@ -44,3 +44,8 @@ socket.on(
         const li_element = $( '<li>' ).text( strText );
         $( '#message_list' ).prepend( li_element ); 
     } );
+socket.on{
+    ' spread picture',
+    ( objPicture ) =>
+    {
+    } );
