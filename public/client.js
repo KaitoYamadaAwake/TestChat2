@@ -23,7 +23,7 @@ $( '#join-form' ).submit(
     } );
 
 // Send
-$( 'form' ).submit(
+$( '#chat-form' ).submit(
     () =>
     {
         console.log( '#input_message :', $( '#input_message' ).val() );
