@@ -64,7 +64,7 @@ io.on(
                     // システムメッセージの作成
                     const objMessage = {
                         strNickname: SYSTEMNICKNAME,
-                        strMessage: strNickname + ' left.' + " there are " + iCountUser + " participants",
+                        strMessage: strNickname + "さんが退室しました。" + "現在" + iCountUser + "人接続中です。",
                         strDate: strNow
                     }
 
