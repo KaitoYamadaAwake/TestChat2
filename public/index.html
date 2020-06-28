@@ -4,9 +4,6 @@
 <head>
     <meta charset="utf-8" />
     <title>My Chat</title>
-    <!--ウィンドウの高さの残り全部を覆うdivを作る方法
-        下記を参考に、改良。
-        https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-remaining-screen-space -->
     <style type="text/css">
         html, body {
             height: 100%;
@@ -16,18 +13,11 @@
         #wrapper {
             display: flex;
             flex-flow: column nowrap;
-            /* The above is shorthand for:
-               flex-direction: column,
-               flex-wrap: nowrap */
             height: 100%;
         }
 
         #lower-area {
             flex: 1 1 auto;
-            /* The above is shorthand for:
-               flex-grow: 1,
-               flex-shrink: 1,
-               flex-basis: auto  */
             position: relative;
         }
 
@@ -53,7 +43,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <h1>My Chat</h1>
+        <h1>Test Chat</h1>
 
         <div id="lower-area">
             <div id="join-screen">
